@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SRMIST GPA & CGPA Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="hover.css" />
+</head>
+<body>
+
+  <section class="welcome-section">
+    <h1 id="name">Welcome to SRM GPA & CGPA Calculator</h1>
+    <span id="element"></span>
+  </section>
+
+  <div class="container">
+    <h1>SRM GPA & CGPA Calculator</h1>
+
+    <div class="card">
+      <h2>GPA Calculator (Single Semester)</h2>
+      <form id="gpa-form">
+        <div id="courses-container"></div>
+        <div class="buttons">
+          <button type="button" class="btn btn-secondary" id="add-course-btn">Add Course</button>
+          <button type="submit" class="btn btn-primary">Calculate GPA</button>
+        </div>
+        <div id="gpa-result" class="result"></div>
+      </form>
+    </div>
+
+   
+    <div class="card">
+      <h2>CGPA Calculator (Multiple Semesters)</h2>
+      <form id="cgpa-form">
+        <div id="semesters-container"></div>
+        <div class="buttons">
+          <button type="button" class="btn btn-secondary" id="add-semester-btn">Add Semester</button>
+          <button type="submit" class="btn btn-primary">Calculate CGPA</button>
+        </div>
+        <div id="cgpa-result" class="result"></div>
+      </form>
+    </div>
+    
+    <footer>
+      <div class="footer-content">
+        <p>© 2025 | GPA & CGPA Calculator</p>
+        <p>Made with ❤️ for Students</p>
+
+        <p>Developed by 
+          <strong>
+            <a href="https://www.linkedin.com/in/sreeramsp/" target="_blank" class="developer-link">Sreeram Palani</a> & 
+            <a href="https://www.linkedin.com/in/venkat-roshan-k-m-5b8012307/" target="_blank" class="developer-link">Venkat Roshan</a>
+          </strong>
+        </p>
+        <p class="disclaimer">Note: This is an unofficial tool created for student convenience and educational use only.</p>
+      </div>
+    </footer>
+    
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Your easy and accurate academic tool'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
