@@ -1,7 +1,3 @@
-Certainly! Based on the files you shared (`index.html`, `script.js`, `styles.css`) and the GitHub repo link, here is a detailed and well-structured README.md file tailored for your **SRM GPA & CGPA Calculator** project.
-
----
-
 # SRM GPA & CGPA Calculator
 
 A web-based GPA and CGPA calculator designed specifically for SRM University students. This tool helps you calculate your semester GPA and cumulative CGPA using the official SRM grading system with an intuitive and responsive interface.
