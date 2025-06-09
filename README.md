@@ -1,4 +1,4 @@
-# SRM GPA & CGPA Calculator
+# SRM GPA & CGPA Calculator v1.0
 
 A web-based GPA and CGPA calculator designed specifically for SRM University students. This tool helps you calculate your semester GPA and cumulative CGPA using the official SRM grading system with an intuitive and responsive interface.
 
