@@ -34,7 +34,7 @@ Try it live by opening `index.html` in your browser.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Sreeram2611/SRM-GPA-CALCULATOR.git
+git clone https://github.com/Sreeram2611/SRM-GPA-CALCULATOR-v1.0.git
 cd SRM-GPA-CALCULATOR
 ```
 
