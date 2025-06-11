@@ -17,8 +17,6 @@ A web-based GPA and CGPA calculator designed specifically for SRM University stu
 
 ## Demo
 
-![Screenshot](./screenshot project screenshot here)*
-
 Try it live by opening `index.html` in your browser.
 
 ---
